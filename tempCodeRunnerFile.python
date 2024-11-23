@@ -1,0 +1,25 @@
+def x(s):
+    # Bank code (first 4 characters)
+    bank_code = s[:4]
+    # Country code (next 2 characters)
+    country_code = s[4:6]
+    # Print the bank code and country code
+    print(f"Bank Code: {bank_code}")
+    print(f"Country Code: {country_code}")
+
+def y():
+    # Read SWIFT code from the user
+    swift_code = input("Enter a SWIFT code: ").strip()
+    
+    # Call the function to print bank and country codes
+    x(swift_code)
+
+# Run the program
+if __name__ == "__main__":
+    # Test the program with provided SWIFT codes
+    print("For SWIFT code BPKOPLPW:")
+    x("BPKOPLPW")
+    print("\nFor SWIFT code CHASUS33:")
+    x("CHASUS33")
+    print("\nFor SWIFT code DEUTDEFF:")
+    x("DEUTDEFF")

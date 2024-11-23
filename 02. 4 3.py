@@ -1,0 +1,10 @@
+a = 3
+b = 5
+dod=a+b
+odj=a-b
+mnż=a*b
+dzie=a/b
+print(f'{a}+{b}={dod}')
+print(f'{a}-{b}={odj}')
+print(f'{a}*{b}={mnż}')
+print(f'{a}/{b}={dzie}')
